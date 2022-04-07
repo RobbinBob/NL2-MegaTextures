@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <renderpass>
+      <shadercore>Tmp0 = Mul(Color, Tex0);
+Result = Lerp(Tex0.a, Tex0, Tmp0);
+Metallic = 0;
+Roughness = Tex2.g;
+Ambient = Tex2.r;</shadercore>
+      <transparency mode="opaque"/>
+      <custommaterial>
+        <diffuse r="1" g="1" b="1"/>
+        <ambient r="1" g="1" b="1"/>
+      </custommaterial>
+      <rgbgen mode="bumplighting"/>
+      <texunit>
+        <map>Tarmac (Diffuse).dds</map>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Tarmac (Height).dds</map>
+        <bump mode="heightgloss" heightscale="4"/>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Tarmac (ARM).dds</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/step1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

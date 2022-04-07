@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <preview>Flat Roof (Dark).jpg</preview>
+    <renderpass>
+      <shadercore>Result = Mul(Tex0, Entity1);
+Metallic = 0;
+Roughness = Tex2.g;
+Ambient = Tex2.r;</shadercore>
+      <transparency mode="opaque"/>
+      <rgbgen mode="bumplighting"/>
+      <texunit>
+        <map>Flat Roof (Diffuse + Recolor).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Flat Roof (Normalmap).png</map>
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Flat Roof (ARM).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/step1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

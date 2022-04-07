@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <preview>Painted Brick (White).jpg</preview>
+    <renderpass>
+      <shadercore>Result = Mul(Tex0, Entity3);
+Metallic = 0;
+Roughness = Tex2.g;
+Ambient = Tex2.r;</shadercore>
+      <transparency mode="opaque"/>
+      <rgbgen mode="bumplighting"/>
+      <texunit>
+        <map>Painted Brick (Diffuse + Recolor).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Brick Wall 01 (Normalmap).png</map>
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Brick Wall 01 (ARM).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+  </material>
+</root>

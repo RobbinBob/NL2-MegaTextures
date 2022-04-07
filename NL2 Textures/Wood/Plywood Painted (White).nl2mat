@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <renderpass>
+      <shadercore>Result = Mul(Tex0, Color);
+Metallic = 0;
+Roughness = Tex2;</shadercore>
+      <transparency mode="opaque"/>
+      <linearshading/>
+      <custommaterial>
+        <diffuse r="1" g="1" b="1"/>
+        <ambient r="1" g="1" b="1"/>
+      </custommaterial>
+      <rgbgen mode="bumplighting"/>
+      <texunit>
+        <map>Plywood (Diffuse + Recolor).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Plywood (Normalmap).png</map>
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Plywood (Roughness).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/wood1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/wood2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/wood3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/wood4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

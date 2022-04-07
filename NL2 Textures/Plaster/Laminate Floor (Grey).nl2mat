@@ -1,0 +1,32 @@
+<root>
+  <material>
+    <renderpass>
+      <shadercore>Result = Color;
+Metallic = 0;
+Roughness = Tex1.g;
+Ambient = Tex1.r;</shadercore>
+      <transparency mode="opaque" />
+      <linearshading />
+      <custommaterial>
+        <diffuse r="0.576471" g="0.576471" b="0.576471" />
+        <ambient r="0.576471" g="0.576471" b="0.576471" />
+      </custommaterial>
+      <rgbgen mode="bumplighting" />
+      <texunit>
+        <map>Laminate Floor (Normalmap).png</map>
+        <bump mode="normalgloss" />
+        <tcgen mode="base" />
+      </texunit>
+      <texunit>
+        <map>Laminate Floor (ARM).dds</map>
+        <tcgen mode="base" />
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/step1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

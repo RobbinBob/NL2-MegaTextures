@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <preview>Clean Corrugated Metal (Green).jpg</preview>
+    <renderpass>
+      <shadercore>Tmp0 = Mul(Tex0, Color);
+Result = Lerp(Tex0.a, Tmp0, Tex0);
+Metallic = 0;
+Roughness = Tex2.g;
+Ambient = Tex2.r;</shadercore>
+      <transparency mode="opaque"/>
+      <custommaterial>
+        <diffuse r="0.85098" g="0.847059" b="0.478431"/>
+        <ambient r="0.85098" g="0.847059" b="0.478431"/>
+      </custommaterial>
+      <rgbgen mode="bumplighting"/>
+      <texunit>
+        <map>Clean Corrugated Metal (Diffuse + Recolor).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Clean Corrugated Metal (Normalmap).png</map>
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Clean Corrugated Metal (ARM).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/metal1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/metal2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/metal3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/metal4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

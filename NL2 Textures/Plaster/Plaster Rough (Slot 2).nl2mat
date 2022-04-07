@@ -1,0 +1,25 @@
+<root>
+  <material>
+    <renderpass>
+      <shadercore>Result = Entity2;
+Metallic = 0;
+Roughness = Tex1.g;
+Ambient = Tex1.r;</shadercore>
+      <transparency mode="opaque" />
+      <custommaterial>
+        <diffuse r="0.898039" g="0.866667" b="0.792157" />
+        <ambient r="0.898039" g="0.866667" b="0.792157" />
+      </custommaterial>
+      <rgbgen mode="bumplighting" />
+      <texunit>
+        <map>Plaster Rough (Normalmap).png</map>
+        <bump mode="normalgloss" />
+        <tcgen mode="base" />
+      </texunit>
+      <texunit>
+        <map>Plaster Rough (ARM).dds</map>
+        <tcgen mode="base" />
+      </texunit>
+    </renderpass>
+  </material>
+</root>

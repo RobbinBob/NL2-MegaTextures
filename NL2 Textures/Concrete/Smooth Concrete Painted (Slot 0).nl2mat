@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <renderpass>
+      <shadercore>Result = Mul(Tex0, Entity0);
+Metallic = 0;
+Roughness = 0.6;
+Ambient = Tex2.r;</shadercore>
+      <transparency mode="opaque"/>
+      <rgbgen mode="bumplighting"/>
+      <texunit>
+        <map>Smooth Concrete (Diffuse + Recolor).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Smooth Concrete (Normalmap).png</map>
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Smooth Concrete (ARM).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/step1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/step4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

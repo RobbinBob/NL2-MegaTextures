@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <preview>Wooden Planks 01.jpg</preview>
+    <renderpass>
+      <shadercore>Result = Tex0;
+Metallic = 0;
+Roughness = Tex2.g;
+Ambient = Tex2.r;</shadercore>
+      <transparency mode="opaque"/>
+      <rgbgen mode="bumplighting"/>
+      <texunit>
+        <map>Wooden Planks 01 (Diffuse).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Wooden Planks 01 (Normalmap).png</map>
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
+      </texunit>
+      <texunit>
+        <map>Wooden Planks 01 (ARM).png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/wood1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/wood2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/wood3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/wood4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

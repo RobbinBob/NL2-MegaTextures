@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <renderpass>
+      <shadercore>Result.rgb = Color;
+Result.a = 0.45;
+Roughness = 0.15;
+Specular = Add(Color, 0.2);</shadercore>
+      <transparency mode="custom"/>
+      <blend srcfactor="srccolor" dstfactor="srcalpha"/>
+      <nodepthwrite/>
+      <linearshading/>
+      <custommaterial>
+        <diffuse r="0.819608" g="0.854902" b="0.835294"/>
+        <ambient r="0.819608" g="0.854902" b="0.835294"/>
+      </custommaterial>
+      <reflection affectedbyspecular="true" fresnelconst="0.25" fresnelvar="0.4"/>
+      <rgbgen mode="lighting"/>
+    </renderpass>
+    <option noshadowcast="true"/>
+  </material>
+</root>

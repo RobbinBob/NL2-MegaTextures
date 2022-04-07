@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <renderpass>
+      <transparency mode="opaque"/>
+      <linearshading/>
+      <custommaterial>
+        <diffuse r="1" g="1" b="1"/>
+        <ambient r="1" g="1" b="1"/>
+        <specular r="1" g="1" b="1"/>
+        <shininess exponent="42"/>
+      </custommaterial>
+      <reflection fresnelconst="0.25" fresnelvar="0.4"/>
+      <rgbgen mode="lighting"/>
+      <texunit>
+        <colormap r="0" g="0" b="0" a="1"/>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+  </material>
+</root>
