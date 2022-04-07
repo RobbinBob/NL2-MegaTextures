@@ -78,6 +78,7 @@ crashlytics-build.properties
 *.blend
 *.blend1
 *.py
+*.rar
 
 /NL2 Textures - PNG
 /TMP
