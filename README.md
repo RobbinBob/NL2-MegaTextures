@@ -2,6 +2,9 @@
 ![image](https://user-images.githubusercontent.com/74874311/162249012-fb7a517b-529a-4f64-b775-e0d7dc1cf4d1.png)
  An extessive library of ready to go texture sets for all your modelling needs! Simply apply the desired nl2mat file to the material and you are good to go
 
+## Releases
+* [V1.0.0 - Newest](https://github.com/RobbinBob/NL2-MegaTextures/releases/tag/Releases)
+
 __Shorthand list:__
 * 6x Brick
 * 7x Concrete
