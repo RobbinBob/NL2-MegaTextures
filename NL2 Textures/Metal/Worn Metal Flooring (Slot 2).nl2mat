@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
-    <preview>Worn Metal Flooring (Brown).jpg</preview>
+    <preview>Thumbs/Worn Metal Floor (Recolor).png</preview>
     <renderpass>
       <shadercore>Tmp0 = Mul(Tex0, Entity2);
 Result = Lerp(Tex0.r, Tmp0, Tex0);

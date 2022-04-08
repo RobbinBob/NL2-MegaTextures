@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Path Herringbone (Dark).png</preview>
     <renderpass>
       <shadercore>Result = Mul(Tex0, 0.6);
 Metallic = 0;

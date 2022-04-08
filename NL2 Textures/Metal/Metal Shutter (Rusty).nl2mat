@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
-    <preview>Metal Shutter (Rusty).jpg</preview>
+    <preview>Thumbs/Metal Shutters (Rusty).png</preview>
     <renderpass>
       <shadercore>Result = Tex0;
 Metallic = 0;

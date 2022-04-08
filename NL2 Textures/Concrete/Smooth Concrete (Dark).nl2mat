@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Smooth Concrete (Dark).png</preview>
     <renderpass>
       <shadercore>Tmp0 = Mul(Tex0, Color);
 Result = Mul(Tmp0, Tex2.r);

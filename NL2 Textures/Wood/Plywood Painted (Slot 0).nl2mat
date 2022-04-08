@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Plywood Painted (Recolor).png</preview>
     <renderpass>
       <shadercore>Result = Mul(Tex0, Entity0);
 Metallic = 0;

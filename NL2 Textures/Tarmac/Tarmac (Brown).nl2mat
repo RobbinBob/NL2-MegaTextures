@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Tarmac (Brown).png</preview>
     <renderpass>
       <shadercore>Tmp0 = Mul(Color, Tex0);
 Result = Lerp(Tex0.a, Tex0, Tmp0);

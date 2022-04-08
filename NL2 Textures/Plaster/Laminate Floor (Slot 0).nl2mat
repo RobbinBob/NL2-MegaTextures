@@ -1,21 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Laminate Floor (Recolor).png</preview>
     <renderpass>
       <shadercore>Result = Entity0;
 Metallic = 0;
 Roughness = Tex1.g;
 Ambient = Tex1.r;</shadercore>
-      <transparency mode="opaque" />
-      <linearshading />
-      <rgbgen mode="bumplighting" />
+      <transparency mode="opaque"/>
+      <linearshading/>
+      <rgbgen mode="bumplighting"/>
       <texunit>
         <map>Laminate Floor (Normalmap).png</map>
-        <bump mode="normalgloss" />
-        <tcgen mode="base" />
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
       </texunit>
       <texunit>
         <map>Laminate Floor (ARM).dds</map>
-        <tcgen mode="base" />
+        <tcgen mode="base"/>
       </texunit>
     </renderpass>
     <footstepsounds>

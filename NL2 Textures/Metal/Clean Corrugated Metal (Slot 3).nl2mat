@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
-    <preview>Clean Corrugated Metal (Green).jpg</preview>
+    <preview>Thumbs/Corrugated Metal (Recolor).png</preview>
     <renderpass>
       <shadercore>Tmp0 = Mul(Tex0, Entity3);
 Result = Lerp(Tex0.a, Tmp0, Tex0);

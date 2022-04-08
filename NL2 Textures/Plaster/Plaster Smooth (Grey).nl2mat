@@ -1,24 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Plaster Smooth (Grey).png</preview>
     <renderpass>
       <shadercore>Result = Color;
 Metallic = 0;
 Roughness = Tex1.g;
 Ambient = Tex1.r;</shadercore>
-      <transparency mode="opaque" />
+      <transparency mode="opaque"/>
       <custommaterial>
-        <diffuse r="0.501961" g="0.501961" b="0.501961" />
-        <ambient r="0.501961" g="0.501961" b="0.501961" />
+        <diffuse r="0.501961" g="0.501961" b="0.501961"/>
+        <ambient r="0.501961" g="0.501961" b="0.501961"/>
       </custommaterial>
-      <rgbgen mode="bumplighting" />
+      <rgbgen mode="bumplighting"/>
       <texunit>
         <map>Plaster Smooth (Normalmap).png</map>
-        <bump mode="normalgloss" />
-        <tcgen mode="base" />
+        <bump mode="normalgloss"/>
+        <tcgen mode="base"/>
       </texunit>
       <texunit>
         <map>Plaster Smooth (ARM).dds</map>
-        <tcgen mode="base" />
+        <tcgen mode="base"/>
       </texunit>
     </renderpass>
   </material>

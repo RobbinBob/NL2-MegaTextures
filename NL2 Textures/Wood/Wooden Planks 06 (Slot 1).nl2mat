@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
-    <preview>Wooden Planks 06.jpg</preview>
+    <preview>Thumbs/Wood Planks (06 Recolor).png</preview>
     <renderpass>
       <shadercore>Result = Mul(Tex0, Entity1);
 Metallic = 0;

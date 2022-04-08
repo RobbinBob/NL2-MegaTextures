@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
-    <preview>Bare Concrete (Light).jpg</preview>
+    <preview>Thumbs/Bare Concrete (Dark).png</preview>
     <renderpass>
       <shadercore>Result = Mul(Tex0, Color);
 Metallic = 0;

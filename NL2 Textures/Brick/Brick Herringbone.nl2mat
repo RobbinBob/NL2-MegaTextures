@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Herringbone_Brick.png</preview>
     <renderpass>
       <shadercore>Result = Mul(Tex0, Color);
 Metallic = 0;
-Roughness = Tex2;
-</shadercore>
+Roughness = Tex2;</shadercore>
       <transparency mode="opaque"/>
       <custommaterial>
         <diffuse r="1" g="1" b="1"/>

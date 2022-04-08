@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <material>
+    <preview>Thumbs/Concrete 03.png</preview>
     <renderpass>
       <shadercore>Result = Tex0;
 Metallic = 0;

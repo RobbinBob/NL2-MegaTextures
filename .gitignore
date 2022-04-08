@@ -79,6 +79,7 @@ crashlytics-build.properties
 *.blend1
 *.py
 *.rar
+*.afphoto
 
 /NL2 Textures - PNG
 /TMP
